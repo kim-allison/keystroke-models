@@ -1,3 +1,7 @@
+'''
+  The conversion code only works for json files downloaded from the Google Firebase database.
+  The json file must be a result obtained from our self-constructed survey.
+'''
 import json
 import csv
 from collections import defaultdict
@@ -9,7 +13,7 @@ with open('/data/survey_data_json.json') as f:
 
 KEYS = ['Digit5','KeyA','KeyE','KeyI','KeyL','KeyN','KeyO','KeyR','KeyT','Period','Shift']
 
-real_data = data['data-survey-1'] # this will be different (changed)
+real_data = data['data-survey-1'] # this will be different for different survey trials
 ids = list(real_data.keys())
 
 big_list = []
