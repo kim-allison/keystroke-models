@@ -1,6 +1,6 @@
 # keystroke-models
 
-'''bash
+```bash
 ├───data
 │       jsontocsv.py
 │       online_data.csv
@@ -10,4 +10,4 @@
 └───models
         neural_network_model.ipynb
         z_score_model.ipynb
-'''
+```
