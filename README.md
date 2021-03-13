@@ -8,8 +8,8 @@
 │       survey_data_json.json
 │
 └───models
-        stdev_model.ipynb
         neural_network_model.ipynb
+        stdev_model.ipynb
         z_score_model.ipynb
 ```
 The models were created using Google Colab and use data mounted on a private drive. To run code, simply change path for data import.
