@@ -8,6 +8,7 @@
 │       survey_data_json.json
 │
 └───models
+        stdev_model.ipynb
         neural_network_model.ipynb
         z_score_model.ipynb
 ```
